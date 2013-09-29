@@ -1,0 +1,66 @@
+@import "variables";
+
+body {
+	font-family: "museo-slab",serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, td, li {
+	font-family: "museo-slab",serif;
+	color: $white;
+}
+
+.lead {
+	color: $teal;
+	font-family: "caliban-std";
+	font-size: 3em;
+}
+
+.teal {
+	color: $teal;
+}
+
+.white {
+	color: $white;
+}
+
+header {
+	h1 {
+		color: $white;
+		font-size: 2em;
+		margin-top: 0;
+		@media(max-width:768px) {
+			text-align: center;
+		}
+	}
+	h2 {
+		color: $teal;
+		font-size: 4em;
+		font-weight: 300;
+		margin-bottom: 0;
+		@media(max-width:768px) {
+			text-align: center;
+		}
+	}
+}
+
+section {
+	h1 {
+		border-bottom: 2px dotted $teal;
+		color: $white;
+		font-size: 2em;
+		small {
+			color: $teal;
+			margin-left: 20px;
+		}
+	}
+}
+
+.modal.video {
+	.modal-footer {
+		h4 {
+			small {
+				margin-left: 20px;
+			}
+		}
+	}
+}

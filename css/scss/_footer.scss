@@ -1,0 +1,10 @@
+@import "variables";
+
+footer {
+	.container {
+		border-top: 2px dotted $teal;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		padding-top: 20px;
+	}	
+}

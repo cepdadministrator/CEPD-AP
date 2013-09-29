@@ -1,0 +1,14 @@
+@import "variables";
+
+.modal.video {
+	.modal-dialog {
+	}
+	.modal-body {
+		padding: 0;
+	}
+	.modal-footer {
+		background: #444;
+		margin-top: 0px;
+		padding: 2px 10px;
+	}
+}
