@@ -41,6 +41,12 @@ header {
 			text-align: center;
 		}
 	}
+	p {
+		color: $silver;
+		@media(max-width:768px) {
+			text-align: center;
+		}
+	}
 }
 
 section {
