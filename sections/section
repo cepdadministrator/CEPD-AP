@@ -1,0 +1,47 @@
+<?php
+
+function showSection($id, $photo, $name, $title, $phrase, $achievements, $item) {
+
+?>
+
+<section id="<?php echo $id; ?>" class="hidden-xs hidden-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2">
+				<div class="video-still">
+					<a data-toggle="modal" href="#<?php echo $id; ?>Video" class="playVideo">
+						<img src="img/<?php echo $photo; ?>" class="img-circle pull-left video-thumbnail" alt="#" />
+						<span class="play">
+							<span></span>
+						</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-10">
+				<h1><?php echo $name; ?> <small><?php echo $title; ?></small></h1>
+				<div class="row">
+					<?php echo $content; ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="<?php echo $id; ?>Mobile" class="visible-xs visible-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<a href="#96fc71bf" class="sublime">
+					<img src="img/no-photo.jpg" class="img-circle" width="150" alt="#" />
+				</a>
+				<h1><?php echo $name; ?><br><small><?php echo $title; ?></small></h1>
+				<div class="row">
+						<?php echo $content; ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php
+}
+?>

@@ -5,23 +5,102 @@ section {
 	.video-thumbnail {
 		float: left;
 		margin-left: 20px;
-		width: 80%;
+		width: 70%;
 		z-index: 10;
 	}
 	@media(max-width:768px) {
 		text-align: center;
 	}
+	p, li {
+		font-size: 1.5em;
+	}
 }
 
 #dimitri {
-	img.ig {
+	.house-container{
 		float: right;
 		margin-top: -140px;
 	}
 }
 
 #susan {
+	img.ig {
+		float: right;
+		margin-top: 30px;
+		margin-right: 30px;
+	}
+}
+
+#anna {
+	img.ig {
+		width: 100%;
+	}
+	img.ig-mobile {
+		width: 90%;
+	}
+}
+	#annaMobile {
+		img.ig {
+			margin-top: 25px;
+			max-width: 599px;
+			width: 90%;
+		}
+	}
+
+
+#suzan {
+	img.ig {
+		margin-top: 50px;
+		width: 100%;
+	}
+}
+	#suzanMobile {
+		img.ig {
+			margin-top: 25px;
+			max-width: 525px;
+			width: 90%;
+		}
+	}
+
+#simon {
+	img.ig {
+		float: right;
+		margin-top: -50px;
+		margin-right: 40px;
+	}
 	
+}
+
+#lee, #leeMobile {
+	p {
+		line-height: 1em;
+	}
+	.award {
+		color: $white;
+		font-size: 1em;
+	}
+	.award-area {
+		color: $teal;
+		font-size: .8em;
+		line-height: .8em;
+	}
+	.name{
+		color: $yellow;
+		font-size: .8em;
+	}
+	
+}
+
+#ross {
+	
+}
+
+#peter {
+	img.ig {
+		float: right;
+		margin-top: -100px;
+		margin-right: 10px;
+	}	
 }
 
 .video-still {
