@@ -16,12 +16,11 @@ $contentMobile = "
 	
 $item = "SuzanSchneeweissOutlines.png";
 
+$itemHTML = '';
+
 $colLeft = "col-md-6";
 $colRight = "col-md-6";
 
-$desktopAnimation = "";
-$mobileAnimation = "";
-
-showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $desktopAnimation, $mobileAnimation);
+showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $itemHTML);
 
 ?>

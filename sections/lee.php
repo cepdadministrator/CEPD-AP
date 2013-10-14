@@ -49,12 +49,23 @@ $contentMobile = '
 	
 $item = "";
 
+$itemHTML = '<div class="award-recipients hidden-xs">
+	<div class="row">
+		<div class="col-xs-4"><img src="img/awards/chiodo.png" alt="" /></div>
+		<div class="col-xs-4"><img src="img/awards/burnstein.png" alt="" /></div>
+		<div class="col-xs-4"><img src="img/awards/bell.png" alt="" /></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-4"><img src="img/awards/macneill.png" alt="" /></div>
+		<div class="col-xs-8"><img src="img/awards/wong-yu.png" alt="" /></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12"><img src="img/awards/selby.png" alt="" /></div>
+	</div>';
+
 $colLeft = "col-md-7";
 $colRight = "col-md-4";
 
-$desktopAnimation = "";
-$mobileAnimation = "";
-
-showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $desktopAnimation, $mobileAnimation);
+showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $itemHTML);
 
 ?>

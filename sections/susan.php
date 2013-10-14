@@ -20,15 +20,11 @@ $contentMobile = "<p>Accredited Events by Sponsoring Department</p>
 	
 $item = "Event-Management.png";
 
+$itemHTML = '';
+
 $colLeft = "col-md-9";
 $colRight = "col-md-3";
 
-$desktopAnimation = "animated bounceInUp";
-$mobileAnimation = "";
-
-$sectionAnimation = "animated bounceInLeft";
-
-
-showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight);
+showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $itemHTML);
 
 ?>

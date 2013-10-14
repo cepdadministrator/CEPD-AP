@@ -20,12 +20,11 @@ $contentMobile = "
 	
 $item = "Research.png";
 
+$itemHTML = '';
+
 $colLeft = "col-md-7";
 $colRight = "col-md-4";
 
-$desktopAnimation = "";
-$mobileAnimation = "";
-
-showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $desktopAnimation, $mobileAnimation);
+showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $itemHTML);
 
 ?>

@@ -64,12 +64,30 @@ section {
 		small {
 			color: $teal;
 			margin-left: 20px;
+			@media(max-width:768px){
+				margin-left: 0;
+			}
+		}
+		@media(max-width:768px){
+			border-bottom: none;
 		}
 	}
+	
+	p, td, li {
+		font-size: 1.6em;
+		@media(max-width:768px){
+			font-size: 1.3em;
+		}
+		
+	}
+	
 	p.lead {
 		@media(max-width:600px) {
 			padding-left: 10px;
 			padding-right: 10px;
+		}
+		@media(max-width:768px){
+			font-size: 2em;
 		}
 	}
 }

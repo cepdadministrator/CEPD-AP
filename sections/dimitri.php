@@ -20,7 +20,7 @@ $contentMobile = "<ul>
 
 $item = "";
 	
-$itemHTML = '<div class="house-container" style="width: 383px;">
+$itemHTML = '<div class="house-container">
 	<div class="row">
 		<div class="col-xs-12">
 			<div id="top">
@@ -47,16 +47,10 @@ $itemHTML = '<div class="house-container" style="width: 383px;">
 			</div>
 		</div>
 	</div>
-</div>
-';
+</div>';
 
 $colLeft = "col-md-6";
 $colRight = "col-md-6";
-
-$desktopAnimation = "animated fadeInDownBig";
-$mobileAnimation = "";
-
-$sectionAnimation = "animated bounceInRight";
 
 showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $itemHTML);
 ?>
