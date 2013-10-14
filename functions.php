@@ -51,6 +51,9 @@ function showSection($id, $photo, $name, $title, $phrase, $content, $contentMobi
 						<?php if ($item != ""): ?>
 							<img src="img/<?php echo $item; ?>" alt="" class="ig">
 						<?php endif; ?>
+						<?php if ($itemHTML != ""): ?>
+							<?php echo $itemHTML; ?>
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>

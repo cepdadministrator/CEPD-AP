@@ -20,7 +20,7 @@ $contentMobile = "<ul>
 
 $item = "";
 	
-$itemHTML = '<div class="house-container" style="width: 383px; float: right;">
+$itemHTML = '<div class="house-container" style="width: 383px;">
 	<div class="row">
 		<div class="col-xs-12">
 			<div id="top">

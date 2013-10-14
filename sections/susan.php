@@ -29,6 +29,6 @@ $mobileAnimation = "";
 $sectionAnimation = "animated bounceInLeft";
 
 
-showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $desktopAnimation, $mobileAnimation, $sectionAnimation);
+showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight);
 
 ?>
