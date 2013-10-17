@@ -36,7 +36,7 @@ require ('functions.php');
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		
 		<!-- Load Test Video -->
-		<script type="text/javascript" src="//cdn.sublimevideo.net/js/p5gee0gg.js"></script>
+		<script type="text/javascript" src="//cdn.sublimevideo.net/js/gculkmjd.js"></script>
 	</head>
 
 	<body>
@@ -47,18 +47,36 @@ require ('functions.php');
 					<div class="col-lg-12">
 						<h2 class="teal">2012-13 A Year of Transformation</h2>
 						<h1 class="white">CEPD Annual Report Executive Summary</h1>
-						<p><small>Click the photo to play the video.</small></p>
+						<!-- <p><small>Click the photo to play the video.</small></p> -->
 					</div>
 				</div>
 			</div>
 		</header>
 
 		<video id="dimitriVideo" width="640" height="360" style="display:none" data-uid="96fc71bf" preload="none">
-		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/DA_annual_report_edit1.mov" />
-		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/DA_annual_report_edit1.mov" data-quality="hd" />
-		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/DA_annual_report_edit1.mov" />
-		</video>	
-
+		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/da.mp4" />
+		</video>
+		<video id="susanVideo" width="640" height="360" style="display:none" data-uid="96fc71bf" preload="none">
+		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/sr.mp4" />
+		</video>
+		<video id="annaVideo" width="640" height="360" style="display:none" data-uid="96fc71bf" preload="none">
+		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/an.mp4" />
+		</video>
+		<video id="suzanVideo" width="640" height="360" style="display:none" data-uid="96fc71bf" preload="none">
+		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/ss.mp4" />
+		</video>
+		<video id="simonVideo" width="640" height="360" style="display:none" data-uid="96fc71bf" preload="none">
+		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/sk.mp4" />
+		</video>
+		<video id="leeVideo" width="640" height="360" style="display:none" data-uid="96fc71bf" preload="none">
+		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/lm.mp4" />
+		</video>
+		<video id="rossVideo" width="640" height="360" style="display:none" data-uid="96fc71bf" preload="none">
+		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/rb.mp4" />
+		</video>
+		<video id="peterVideo" width="640" height="360" style="display:none" data-uid="96fc71bf" preload="none">
+		  <source src="http://dw8qjvaos5e4d.cloudfront.net/annualReport/pa.mp4" />
+		</video>
 <?php
 
 	include ('sections/dimitri.php');
@@ -74,7 +92,7 @@ require ('functions.php');
 
 	<footer>
 		<div class="container">
-			<p>Produced by CEPD </p>
+			<img src="http://blog.cepdtoronto.ca/wp-content/uploads/2011/11/UofT-CEPD-White.png" alt="" />
 		</div>
 	</footer>
 

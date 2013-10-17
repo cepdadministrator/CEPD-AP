@@ -1,7 +1,7 @@
 <?php
 
 $id = "peter";
-$photo = "no-photo.jpg";
+$photo = "pa2.png";
 $name = "Peter Azmi";
 $title = "Innovations + Education";
 $phrase = "Building on CEPD’s Relationship Partners ";

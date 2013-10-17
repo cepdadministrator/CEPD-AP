@@ -1,18 +1,16 @@
 <?php
 
 $id = "susan";
-$photo = "no-photo.jpg";
+$photo = "sr4.png";
 $name = "Susan Rock";
 $title = "Director of CEPD";
-$phrase = "Canada’s largest provider of CPD Accredited events";
-$content = "<p>Accredited Events by Sponsoring Department</p>
-<ul>
+$phrase = "Canada’s largest provider of CPD Accredited events driving C-IPE";
+$content = "<ul>
 	<li>120 Managed Accredited Events</li>
 	<li>27,025 Total Registrants</li>
 	<li>5 Year CACME Successful Review</li>
 </ul>";
-$contentMobile = "<p>Accredited Events by Sponsoring Department</p>
-<ul>
+$contentMobile = "<ul>
 	<li>120 Managed Accredited Events</li>
 	<li>27,025 Total Registrants</li>
 	<li>5 Year CACME Successful Review</li>

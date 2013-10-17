@@ -1,7 +1,7 @@
 <?php
 
 $id = "anna";
-$photo = "no-photo.jpg";
+$photo = "an3.png";
 $name = "Anna Naccarato";
 $title = "Event Management";
 $phrase = "Reaching out to faculty and beyond";

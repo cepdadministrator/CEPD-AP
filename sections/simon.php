@@ -1,7 +1,7 @@
 <?php
 
 $id = "simon";
-$photo = "no-photo.jpg";
+$photo = "sk1.png";
 $name = "Simon Kitto";
 $title = "Research Director";
 $phrase = "Global leaders in CPD Research";

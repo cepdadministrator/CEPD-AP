@@ -3,8 +3,8 @@
 section {
 	margin-top: 75px;
 	.video-thumbnail {
-		float: left;
-		margin-left: 20px;
+		//float: left;
+		//margin-left: 20px;
 		width: 70%;
 		z-index: 10;
 	}
@@ -20,6 +20,25 @@ section {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
+}
+
+
+.video-still {
+	text-align: center;
+}
+.video-play-text {
+		font-size: .8em;
+		margin-top: 10px;
+		a {
+			color: $white;
+		}
+}
+
+.ig-mobile {
+	float: none;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #dimitri {
@@ -175,17 +194,3 @@ section {
 		background: $blue;
 		padding-bottom: 20px;
 	}
-
-.video-still {
-	p {
-		margin-top: 10px;
-	}
-
-}
-
-.ig-mobile {
-	float: none;
-	margin-top: 0;
-	margin-left: auto;
-	margin-right: auto;
-}

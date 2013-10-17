@@ -1,7 +1,7 @@
 <?php
 
 $id = "lee";
-$photo = "no-photo.jpg";
+$photo = "lm2.png";
 $name = "Lee Manchul";
 $title = "CEPD Awards Committee &amp; Award Winners";
 $phrase = "Rewarding Excellence in CPD";

@@ -1,7 +1,7 @@
 <?php
 
 $id = "ross";
-$photo = "no-photo.jpg";
+$photo = "rb1.png";
 $name = "Ross Barclay";
 $title = "Information Services";
 $phrase = "Going to the next level in Event Management Software";

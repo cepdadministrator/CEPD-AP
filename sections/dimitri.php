@@ -1,7 +1,7 @@
 <?php
 
 $id = "dimitri";
-$photo = "dimitri-video.jpg";
+$photo = "da2.png";
 $name = "Dimitri Anastakis";
 $title = "Vice Dean";
 $phrase = "Partners in transforming healthcare in Ontario and beyond";

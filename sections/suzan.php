@@ -1,7 +1,7 @@
 <?php
 
 $id = "suzan";
-$photo = "no-photo.jpg";
+$photo = "ss1.png";
 $name = "Suzan Schneeweiss";
 $title = "Academic Director";
 $phrase = "Developing Relationships with Academic and CPD Leaders";
