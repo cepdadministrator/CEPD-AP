@@ -90,11 +90,9 @@ require ('functions.php');
 
 ?>
 
-	<footer>
-		<div class="container">
-			<img src="http://blog.cepdtoronto.ca/wp-content/uploads/2011/11/UofT-CEPD-White.png" alt="" />
-		</div>
-	</footer>
+<?php
+	include ('footer.php');
+?>
 
 	<!-- Bootstrap core JavaScript
 	================================================== -->
@@ -145,6 +143,30 @@ require ('functions.php');
 			$('#right').animo({animation: "pulse", duration: 0.5, keep: true} );
 		});
 	});
+
+	</script>
+	
+	<script type="text/javascript">
+	  var _gauges = _gauges || [];
+	  (function() {
+	    var t   = document.createElement('script');
+	    t.type  = 'text/javascript';
+	    t.async = true;
+	    t.id    = 'gauges-tracker';
+	    t.setAttribute('data-site-id', '52610d2cf5a1f54695000039');
+	    t.src = '//secure.gaug.es/track.js';
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(t, s);
+	  })();
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-42768709-1', 'utoronto.ca');
+	  ga('send', 'pageview');
 
 	</script>
 	
