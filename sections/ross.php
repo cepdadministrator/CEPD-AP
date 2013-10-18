@@ -10,14 +10,14 @@ $content = "<ul>
 	<li>University of British Columbia</li>
 	<li>University of Manitoba </li>
 	<li>University of Ottawa</li>
-	<li>SimONE</li>
+	<li>SIM-one</li>
 </ul>";
 $contentMobile = "<ul>
 	<li>University of Toronto</li>
 	<li>University of British Columbia</li>
 	<li>University of Manitoba </li>
 	<li>University of Ottawa</li>
-	<li>SimONE</li>
+	<li>SIM-one</li>
 </ul>";
 	
 $item = "EvE-Logo.png";

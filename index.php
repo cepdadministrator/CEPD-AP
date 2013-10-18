@@ -106,10 +106,6 @@ require ('functions.php');
 	<script type="text/javascript">
 
 		$(window).scroll(function(event) {
-			if($(".annaPhoto").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
-			    $('#anna').animo( {animation: "fadeInLeft", duration: 1, keep: true} );
-			} else {
-			}
 			
 			if($(".suzanPhoto").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
 			    $('#suzan').animo( {animation: "fadeInRight", duration: 1, keep: true} );
@@ -126,15 +122,25 @@ require ('functions.php');
 			} else {
 			}
 			
-			if($(".rossPhoto").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
-			    $('#ross').animo( {animation: "fadeInLeft", duration: 0.5, keep: true} );
-			} else {
-			}
-			
 			if($(".peterPhoto").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
-			    $('#peter').animo( {animation: "fadeInRight", duration: 0.5, keep: true} );
+			    $('#peter').animo( {animation: "fadeInLeft", duration: 0.5, keep: true} );
 			} else {
 			}
+
+			if($(".susanPhoto").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
+			    $('#susan').animo( {animation: "fadeInRight", duration: 1, keep: true} );
+			} else {
+			}
+
+			if($(".annaPhoto").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
+			    $('#anna').animo( {animation: "fadeInLeft", duration: 1, keep: true} );
+			} else {
+			}
+			if($(".rossPhoto").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
+			    $('#ross').animo( {animation: "fadeInRight", duration: 0.5, keep: true} );
+			} else {
+			}
+
 		});
 	</script>
 
