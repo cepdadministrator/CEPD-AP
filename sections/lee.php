@@ -3,7 +3,7 @@
 $id = "lee";
 $photo = "lm2.png";
 $name = "Lee Manchul";
-$title = "CEPD Awards Committee &amp; Award Winners";
+$title = "Awards &amp; Winners";
 $phrase = "Rewarding Excellence in CPD";
 $content = '	
 	<p><span class="award">Colin R. Woolf Awards</span></p>
@@ -20,11 +20,11 @@ $content = '
 	<p><span class="award">Fred Fallis Award in Online Learning</span><br />
 	<span class="name">Dr. Heather MacNeill</span></p>
 
-	<p><span class="award">Interpofessional Education (IPE) Team CE Award</span><br />
+	<p><span class="award">Interprofessional Education (IPE) Team CE Award</span><br />
 	<span class="name">Drs. Rene Wong &amp; Catherine Yu</span></p>
 
 	<p><span class="award">Ivan Silver Innovation Award</span><br />
-	<span class="name">Dr. Peter Selby and<br>CAMH Nicotene Dependence Clinic Program Team</span></p>';
+	<span class="name">Dr. Peter Selby and<br>CAMH Nicotine Dependence Clinic Program Team</span></p>';
 $contentMobile = '	
 	<p><span class="award">Colin R. Woolf Awards</span></p>
 
@@ -40,11 +40,11 @@ $contentMobile = '
 	<p><span class="award">Fred Fallis Award in Online Learning</span><br />
 	<span class="name">Dr. Heather MacNeill</span></p>
 
-	<p><span class="award">Interpofessional Education (IPE) Team CE Award</span><br />
+	<p><span class="award">Interprofessional Education (IPE) Team CE Award</span><br />
 	<span class="name">Drs. Rene Wong &amp; Catherine Yu</span></p>
 
 	<p><span class="award">Ivan Silver Innovation Award</span><br />
-	<span class="name">Dr. Peter Selby and<br>CAMH Nicotene Dependence Clinic Program Team</span></p>
+	<span class="name">Dr. Peter Selby and<br>CAMH Nicotine Dependence Clinic Program Team</span></p>
 ';
 	
 $item = "";

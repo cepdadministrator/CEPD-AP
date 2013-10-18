@@ -12,7 +12,7 @@ $item = "ie.png";
 
 $itemHTML = '';
 
-$colLeft = "col-md-7";
+$colLeft = "col-md-8";
 $colRight = "col-md-4";
 
 showSection($id, $photo, $name, $title, $phrase, $content, $contentMobile, $item, $colLeft, $colRight, $itemHTML);

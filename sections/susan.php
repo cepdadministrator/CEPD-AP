@@ -3,7 +3,7 @@
 $id = "susan";
 $photo = "sr4.png";
 $name = "Susan Rock";
-$title = "Director of CEPD";
+$title = "Operations";
 $phrase = "Canada’s largest provider of CPD Accredited events driving C-IPE";
 $content = "<ul>
 	<li>120 Managed Accredited Events</li>

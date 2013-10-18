@@ -3,7 +3,7 @@
 $id = "simon";
 $photo = "sk1.png";
 $name = "Simon Kitto";
-$title = "Research Director";
+$title = "Research";
 $phrase = "Global leaders in CPD Research";
 $content = "
 	<ul>

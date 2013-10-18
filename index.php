@@ -6,9 +6,11 @@ require ('functions.php');
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="description" content="2012-13 A Year of Transformation: CEPD Annual Report Executive Summary">
+		<meta name="author" content="Continuing Education and Profession Development, Faculty of Medicine, University of Toronto">
+
 		<link rel="shortcut icon" href="../../assets/ico/favicon.png">
+		<link rel="icon" type="image/png" href="http://cdn1.cepdtoronto.ca/wp-content/themes/cepd/images/cepd-favicon.png" />
 
 		<title>CEPD 2012-13 A Year of Transformation</title>
 
@@ -80,13 +82,13 @@ require ('functions.php');
 <?php
 
 	include ('sections/dimitri.php');
-	include ('sections/susan.php');
-	include ('sections/anna.php');
 	include ('sections/suzan.php');
 	include ('sections/simon.php');
 	include ('sections/lee.php');
-	include ('sections/ross.php');
 	include ('sections/peter.php');
+	include ('sections/susan.php');
+	include ('sections/anna.php');
+	include ('sections/ross.php');
 
 ?>
 

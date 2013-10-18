@@ -3,7 +3,7 @@
 $id = "suzan";
 $photo = "ss1.png";
 $name = "Suzan Schneeweiss";
-$title = "Academic Director";
+$title = "Academic";
 $phrase = "Developing Relationships with Academic and CPD Leaders";
 $content = "
 	<ul>
