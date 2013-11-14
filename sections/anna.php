@@ -7,11 +7,11 @@ $title = "Event Management";
 $phrase = "Reaching out to faculty and beyond";
 $content = "
 	<ul>
-		<li>315 Accredited Events by Faculty Department</li> 		
+		<li>313 Accredited Events by Faculty Department</li> 		
 	</ul>";
 $contentMobile = "
 	<ul>
-		<li>315 Accredited Events by Faculty Department</li> 		
+		<li>313 Accredited Events by Faculty Department</li> 		
 	</ul>";
 	
 $item = "EventsByDepartment.png";
